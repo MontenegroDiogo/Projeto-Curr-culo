@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.icone{
+     width: 150px;
+    height: 70px;
+    transition: 0.7s;
+    
+}
+
+.icone:hover{
+    transform: scale(1.2); 
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    text-align: center;
+}
